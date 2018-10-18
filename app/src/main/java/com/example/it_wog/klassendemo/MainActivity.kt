@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         val u712 = Users(name="Tom", nickname="Game" , alter=24)
         Log.i("Test","${ u712.gibName()}")
 
+        val u713 = Users(name2Constructor = "Thomas")
+
     }
 
 }

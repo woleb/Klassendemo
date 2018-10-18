@@ -8,6 +8,7 @@ class Users (name : String, nickname: String, alter : Int){
     private val nicknameNeu = nickname
     private val alterNeu = alter
 
+    //sekundärer constructor
     constructor(name2Constructor: String) : this (name2Constructor, "", 0){
         Log.i("Test", "2.construtor ausgeführt")
     }
