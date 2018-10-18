@@ -11,10 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //first object generation
         val u712 = Users(name="Tom", nickname="Game" , alter=24)
         Log.i("Test","${ u712.gibName()}")
 
+        //second object generation
         val u713 = Users(name2Constructor = "Thomas")
+        Log.i("Test","${ u713.gibName()}")
 
     }
 
